@@ -1,0 +1,35 @@
+#slide-bg1 {
+    background-image: url('https://images.pexels.com/photos/296278/pexels-photo-296278.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+    background-position: center;
+}
+#slide-bg2 {
+    background-image: url('https://images.pexels.com/photos/296242/pexels-photo-296242.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+    background-position: center;
+}
+h1.display-2 strong, h2.display-2 strong {
+    font-weight: 900;
+    text-shadow: #000 0px 0px 5px;
+}
+.list-group-item {
+    padding: .5rem 1.25rem;
+    background-color: #343a40 !important;
+    border: none !important;
+}
+img.opt-logo {
+    filter: invert(1);
+}
+.parallax {
+    /* The image used */
+    background-image: url("https://images.pexels.com/photos/3109420/pexels-photo-3109420.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  
+    /* Set a specific height */
+    min-height: 400px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
